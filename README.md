@@ -1,6 +1,6 @@
 # Huzaifa Manasawala
 
-**AI Engineer** | LLM applications and agentic RAG | Computer vision | Python backend
+**AI Automation Engineer** | LLM applications and agentic RAG | Computer vision | Python backend
 
 I'm a software engineer at Credence Resource Management in Pune. At work I build Python automation and internal platforms that take manual work off people's plates. In my own time I build LLM and computer vision systems.
 
