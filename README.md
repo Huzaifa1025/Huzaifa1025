@@ -18,9 +18,11 @@ Detects vehicles in video, tracks them with SORT, reads Indian number plates and
 
 ### [DeltaTracker: AI Stock Research Platform](https://github.com/Huzaifa1025/deltatracker-showcase) (in progress)
 
-A LightGBM signal ensemble with purged cross-validation and walk-forward backtests that model Indian brokerage fees and taxes, plus an agentic RAG assistant on LangGraph and Qdrant that returns cited, confidence-scored answers.
+A research and portfolio platform for Indian equities, with watchlists, broker imports, rule-based signals and a LangGraph research agent. The agent uses read-only market-data tools and Qdrant retrieval, cites its sources, and checks claims against the evidence before returning a grounded, partial or insufficient answer.
 
-`LightGBM` `SHAP` `LangGraph` `Qdrant` `MLflow` `FastAPI`
+Includes offline agent tests, Phoenix tracing and a frozen-data evaluation harness. Evaluation results are pending; the LightGBM and FinBERT training pipelines are scaffolding, with no trained models deployed yet.
+
+`React` `TypeScript` `FastAPI` `LangGraph` `Qdrant` `PostgreSQL` `Celery`
 
 The source code for both projects is private. I'm happy to walk through either one in an interview.
 
