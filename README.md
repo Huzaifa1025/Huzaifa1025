@@ -10,9 +10,11 @@ I'm a software engineer at Credence Resource Management in Pune. At work I build
 
 ## Projects
 
-### [ANPR: Indian Number Plate Recognition](https://github.com/Huzaifa1025/anpr-showcase)
+### [PlateX: Indian Number Plate Recognition](https://github.com/Huzaifa1025/anpr-showcase)
 
-Detects vehicles in video, tracks them with SORT, reads Indian number plates and infers the issuing state and district. A custom YOLOv8 character detector replaced general-purpose OCR, which kept inventing plate numbers.
+Detects vehicles in video, tracks them with SORT, and reads Indian number plates using a custom YOLOv8 character detector with an EasyOCR fallback. Confidence-weighted consensus combines readings across frames; the app exports annotated video, plate crops, and detection CSVs, and looks up state and district codes.
+
+[Explore the architecture and engineering decisions →](https://github.com/Huzaifa1025/anpr-showcase#engineering-choices)
 
 `PyTorch` `YOLOv8` `OpenCV` `SORT` `Flask`
 
